@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Clark - Free Bootstrap 4 Template by Colorlib</title>
+	<title>Iftikhar Ahmad Resume</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,17 +19,29 @@
 
 	<link rel="stylesheet" href="css/ionicons.min.css">
 
+	<link rel="stylesheet" href="css/main.css">
+
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+
+
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
+	<!-- custom alerts -->
+	<div class="d-flex justify-content-center">
+		<div id="customAlert" class="custom-alert">
+			<span></span>
+		</div>
+	</div>
 
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">Clark</a>
+			<a class="navbar-brand" href="index.html">Iftikhar Ahmad</a>
 			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
 				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
@@ -54,15 +66,16 @@
 			<div class="slider-item ">
 				<div class="overlay"></div>
 				<div class="container">
-					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
 						<div class="one-forth d-flex  align-items-center ftco-animate"
 							data-scrollax=" properties: { translateY: '70%' }">
 							<div class="text text-center W-100 mw-100">
 								<span class="subheading">Hello, World!</span>
 								<h1 class="mb-4 mt-3">I'm <span>Iftikhar Ahmad</span></h1>
-								<h2 class="mb-4">A Full Time Web Developer & Designer</h2>
-								<p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#"
-										class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+								<h2 class="mb-4">A Web Developer & Designer</h2>
+								<p><a href="#contact-section" class="btn btn-primary py-3 px-4">Hire me</a> 
+									<a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 							</div>
 						</div>
 					</div>
@@ -80,8 +93,8 @@
 								<span class="subheading">Hello, World!</span>
 								<h1 class="mb-4 mt-3">I'm <span>Freelance</span></h1>
 								<h2 class="mb-4">Wordpress and Shopify Expert</h2>
-								<p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#"
-										class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+								<p><a href="#contact-section" class="btn btn-primary py-3 px-4">Hire me</a> 
+									<a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 							</div>
 						</div>
 					</div>
@@ -97,7 +110,7 @@
 					<div class="img-about img d-flex align-items-stretch">
 						<div class="overlay"></div>
 						<div class="img d-flex align-self-stretch align-items-center"
-							style="background-image:url(images/bg_1.png);">
+							style="background-image:url(images/my-image-3.png);">
 						</div>
 					</div>
 				</div>
@@ -106,25 +119,26 @@
 						<div class="col-md-12 heading-section ftco-animate">
 							<h1 class="big">About</h1>
 							<h2 class="mb-4">About Me</h2>
-							<p>A small river named Duden flows by their place and supplies it with the necessary
-								regelialia.</p>
+							<p>In the realm of curiosity, I wander through the world, savouring the flavours of
+								knowledge and adventure. Just like a meandering river, I seek the beauty of life's
+								regalia.</p>
 							<ul class="about-info mt-4 px-md-0 px-2">
-								<li class="d-flex"><span>Name:</span> <span>Clark Thompson</span></li>
-								<li class="d-flex"><span>Date of birth:</span> <span>January 01, 1987</span></li>
-								<li class="d-flex"><span>Address:</span> <span>San Francisco CA 97987 USA</span></li>
-								<li class="d-flex"><span>Zip code:</span> <span>1000</span></li>
-								<li class="d-flex"><span>Email:</span> <span>clarkthomp@gmail.com</span></li>
-								<li class="d-flex"><span>Phone: </span> <span>+1-2234-5678-9-0</span></li>
+								<li class="d-flex"><span>Name:</span> <span>Iftikhar Ahmad</span></li>
+								<li class="d-flex"><span>Date of birth:</span> <span>1997</span></li>
+								<li class="d-flex"><span>Address:</span> <span>Punjab, Pakistan</span></li>
+								<li class="d-flex"><span>Zip code:</span> <span>54590</span></li>
+								<li class="d-flex"><span>Email:</span> <span><a href="mailto:iftikharahmad.it@gmail.com">iftikharahmad.it@gmail.com</a></span></li>
+								<li class="d-flex"><span>Phone: </span> <span><a href="tel://+923082912068">+92-308-2912068</a></span></li>
 							</ul>
 						</div>
 					</div>
 					<div class="counter-wrap ftco-animate d-flex mt-md-3">
 						<div class="text">
 							<p class="mb-4">
-								<span class="number" data-number="120">0</span>
+								<span class="number" data-number="80">0</span>
 								<span>Project complete</span>
 							</p>
-							<p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
+							<p><a onclick="fileDownloadResume()" class="btn btn-primary py-3 px-3">Download CV</a></p>
 						</div>
 					</div>
 				</div>
@@ -132,80 +146,429 @@
 		</div>
 	</section>
 
-	<section class="ftco-section ftco-no-pb" id="resume-section">
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="resume-section" class="">
 		<div class="container">
-			<div class="row justify-content-center pb-5">
-				<div class="col-md-10 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Resume</h1>
-					<h2 class="mb-4">Resume</h2>
-					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It
-						is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2014-2015</span>
-						<h2>Master Degree of Design</h2>
-						<span class="position">Cambridge University</span>
-						<p class="mt-4">A small river named Duden flows by their place and supplies it with the
-							necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-							into your mouth.</p>
-					</div>
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2014-2015</span>
-						<h2>Bachelor's Degree of C.A</h2>
-						<span class="position">Cambridge University</span>
-						<p class="mt-4">A small river named Duden flows by their place and supplies it with the
-							necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-							into your mouth.</p>
-					</div>
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2014-2015</span>
-						<h2>Diploma in Computer</h2>
-						<span class="position">Cambridge University</span>
-						<p class="mt-4">A small river named Duden flows by their place and supplies it with the
-							necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-							into your mouth.</p>
+			<div class=" section-intro">
+				<div class="col-12">
+					<div class="col-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
+						<h1 class="big big-2">Resume</h1>
+						<h2 class="mb-4">Resume</h2>
+						<p class="">In my dynamic career as a web developer, I've skillfully combined passion,
+							expertise, and an unwavering commitment to excellence. My track record includes the adept
+							transformation of challenges into opportunities, marking my professional journey with a
+							consistent focus on innovation and unwavering dedication. My contributions to web
+							development encompass a unique blend of experience, visionary thinking, and an insatiable
+							drive for success, making me a valuable asset in delivering top-tier web solutions.</p>
 					</div>
 				</div>
 
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2014-2015</span>
-						<h2>Art &amp; Creative Director</h2>
-						<span class="position">Cambridge University</span>
-						<p class="mt-4">A small river named Duden flows by their place and supplies it with the
-							necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-							into your mouth.</p>
-					</div>
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2014-2015</span>
-						<h2>Wordpress Developer</h2>
-						<span class="position">Cambridge University</span>
-						<p class="mt-4">A small river named Duden flows by their place and supplies it with the
-							necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-							into your mouth.</p>
-					</div>
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2017-2018</span>
-						<h2>UI/UX Designer</h2>
-						<span class="position">Cambridge University</span>
-						<p class="mt-4">A small river named Duden flows by their place and supplies it with the
-							necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-							into your mouth.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center mt-5">
-				<div class="col-md-6 text-center ftco-animate">
-					<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
-				</div>
-			</div>
+			</div> <!-- /section-intro-->
+
+			<div class="">
+
+				<div class="col-12 resume-header">
+
+					<h2>Work Experience</h2>
+
+				</div> <!-- /resume-header -->
+
+				<div class="col-12">
+
+					<div class="timeline-wrap">
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Web Developer & Designer</h3>
+								<p>April 2022 - Present</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>Broadstone Technologies</h4>
+								<p>
+								<ul>
+									<li><strong>Problem-Solving Proficiency:</strong> Proficient in solving complex code
+										problems and collaborating seamlessly with design teams to create exceptional
+										web designs that align with clients' goals and user experiences.</li>
+
+									<li><strong>Diverse Skill Set:</strong> Experienced web page designer with a strong
+										programming background, possessing skills in JavaScript (ES6), React, Node,
+										jQuery, Bootstrap, MongoDB, WordPress, Shopify, HTML5, CSS, Python, SQL,
+										Responsive Design, and Media Query.</li>
+
+									<li><strong>Effective Communication:</strong> Excellent management and communication
+										abilities, facilitating clear and efficient interaction with team members,
+										clients, and stakeholders, ensuring project objectives are met.</li>
+
+									<li><strong>Tools and Technologies:</strong> Proficiency in utilizing a wide range
+										of tools and technologies, including MongoDB for database management, Adobe
+										Photoshop for graphic design, and Git for version control, enhancing project
+										efficiency and collaboration.</li>
+
+									<li><strong>Commitment to Growth:</strong> Committed to continuous learning and
+										personal growth, actively seeking opportunities to expand skills and knowledge.
+										Demonstrates a proactive approach to staying updated with emerging industry
+										trends and best practices.</li>
+
+									<li><strong>Effective Problem Resolution:</strong> Led a proficient error-solving
+										and debugging team to efficiently identify and resolve issues, ensuring seamless
+										operation and optimal performance of web applications.</li>
+
+									<li><strong>Enhanced User Experience:</strong> Successfully revamped an existing
+										website by converting it to a Bootstrap framework with a modern design approach.
+										This transformation significantly improved the user experience, making it more
+										user-friendly and consistent across devices.</li>
+
+									<li><strong>Error Reduction:</strong> Through the website redesign and enhancements,
+										achieved a remarkable 75% reduction in errors and user-related issues. This not
+										only enhanced the overall user satisfaction but also contributed to improved
+										website performance.</li>
+								</ul>
+
+								</p>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Shopify & WordPress Expert</h3>
+								<p>September 2020 - Present</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>Fiverr & Upwork (Freelancer)</h4>
+								<p>
+								<ul>
+									<li><strong>Custom WordPress Plugins:</strong> Developed and implemented custom
+										WordPress plugins tailored to clients' unique needs, enhancing website
+										functionality and user experience.</li>
+
+									<li><strong>Website Creation:</strong> Created fully customized websites from
+										scratch, combining design aesthetics with responsive and user-friendly
+										interfaces.</li>
+
+									<li><strong>Excel Sheet to Web Apps:</strong> Transformed complex Excel sheet
+										calculators into user-friendly web applications and standalone plugins,
+										simplifying data management and accessibility.</li>
+
+									<li><strong>Shopify Enhancements:</strong> Designed and integrated new
+										functionalities into Shopify stores, offering clients advanced e-commerce
+										features and improved customer engagement.</li>
+
+									<li><strong>Product Management:</strong> Managed product listings on Shopify, adding
+										new products with custom details and controls, ensuring an accurate
+										representation of clients' offerings.</li>
+
+									<li><strong>Shopify Customization:</strong> Modified and overrode existing Shopify
+										functionalities according to specific user requirements, tailoring the online
+										shopping experience to client needs.</li>
+
+									<li><strong>Custom WordPress Pages:</strong> Crafted custom pages for WordPress
+										sites, combining creativity and technical expertise to deliver visually
+										appealing and informative content.</li>
+
+									<li><strong>User-Friendly Widgets and Calculators:</strong> Developed standalone
+										widgets and calculators that led to a 60% faster user progress rate. These
+										widgets also achieved higher user satisfaction levels than expected, with no
+										reported errors or consistency issues post-delivery.</li>
+								</ul>
+
+								</p>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Start-up Initiative</h3>
+								<p>July 2021 - January 2022</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>Story Book Plus</h4>
+								<p style="color: #ffbd39 !important;">Founded and spearheaded "Story Book Plus," an
+									innovative online platform specializing in story creation, publishing, and
+									distribution, exemplifying visionary entrepreneurship and effective leadership.</p>
+								<p>
+								<ul>
+									<li><strong>Entrepreneurial Leadership:</strong> Founded and spearheaded "Story Book
+										Plus," an innovative online platform specializing in story creation, publishing,
+										and distribution, exemplifying visionary entrepreneurship and effective
+										leadership.</li>
+									<li><strong>Efficient Team Management:</strong> Orchestrated a proficient team,
+										proficiently delegating tasks, and meticulously tracking progress to ensure the
+										timely achievement of project milestones and objectives.</li>
+									<li><strong>Strategic Business Planning:</strong> Crafted comprehensive business
+										plans with a focus on strategic growth, revenue optimization, and market
+										expansion, showcasing a strategic acumen that aligns with organizational goals.
+									</li>
+									<li><strong>Investor Relations:</strong> Proficiently delivered persuasive elevator
+										pitches to secure pivotal investments from discerning stakeholders, driving
+										substantial funding for the platform's expansion and advancement.</li>
+									<li><strong>Professional Development:</strong> Maintained an unwavering commitment
+										to professional development by actively participating in industry workshops and
+										thought leadership events, staying abreast of evolving market dynamics.</li>
+									<li><strong>Market Research and Insights:</strong> Spearheaded market research
+										endeavors to pinpoint emerging trends and discern customer needs, directing
+										product refinement and data-driven marketing initiatives.</li>
+									<li><strong>KPI Monitoring and Analysis:</strong> Formulated, monitored, and
+										assessed key performance indicators (KPIs), furnishing vital insights for
+										informed decision-making and the strategic advancement of the platform.</li>
+								</ul>
+								</p>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Internship </h3>
+								<p>November 2019 - April 2020</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>AUM Technologies</h4>
+								<ul>
+									<li><strong>Internship at Aum Technologies:</strong> Completed a 6-month internship
+										at Aum Technologies, gaining valuable hands-on experience in software
+										development.</li>
+									<li><strong>Proficiency in Multiple Languages:</strong> Worked with a variety of
+										programming languages, including C#, Java, SQLite, and SQL, demonstrating
+										versatility and adaptability in technical skills.</li>
+									<li><strong>Point of Sale (POS) Systems:</strong> Contributed to the development of
+										Point of Sale (POS) systems for the medical, hotel, and retail sectors,
+										showcasing the ability to tackle complex projects.</li>
+									<li><strong>Collaborative Development:</strong> Collaborated closely with the
+										development team to design, implement, and test desktop applications, ensuring
+										the delivery of high-quality software solutions.</li>
+									<li><strong>Software Development Methodologies:</strong> Gained practical experience
+										in software development methodologies and best practices, further enhancing
+										technical proficiency.</li>
+									<li><strong>Client-Centric Delivery:</strong> Successfully delivered projects that
+										met client requirements, demonstrating problem-solving skills and attention to
+										detail.</li>
+									<li><strong>Database Management:</strong> Acquired a solid foundation in database
+										management and SQL queries through work on database-driven applications.</li>
+								</ul>
+
+								</p>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+					</div> <!-- /timeline-wrap -->
+
+				</div> <!-- /col-12 -->
+
+			</div> <!-- /resume-timeline -->
+
+			<div class="">
+
+				<div class="col-12 resume-header">
+
+					<h2>Education</h2>
+
+				</div> <!-- /resume-header -->
+
+				<div class="col-12">
+
+					<div class="timeline-wrap">
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-briefcase"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Bachelor Degree Of Software Engineering</h3>
+								<p>September 2019 - November 2021</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>Balochistan University of Information Technology, Engineering and Management
+									Sciences | Quetta</h4>
+								<p>
+								<ul>
+									<li><strong>Research Contribution:</strong> Contributed to a research paper focused
+										on "Non-Functional Regression Testing Using Apache JMeter," showcasing a
+										dedication to exploring and implementing cutting-edge advancements in software
+										testing and performance analysis, which can bring valuable insights and
+										innovations to the organization's software quality assurance efforts.</li>
+
+									<li><strong>Educational Enhancement:</strong> Led the development of a
+										university-wide desktop application—an Outcome-Based Education Grading
+										System—that streamlined the grading process based on Program Learning Outcomes
+										(PLOs) and Course Learning Outcomes (CLOs). This initiative exemplified the
+										ability to translate advanced software engineering skills into practical
+										solutions for improving educational processes within the institution.</li>
+
+									<li><strong>Project Excellence Recognition:</strong> Received a nomination for the
+										best project within the software engineering department, underscoring the
+										exceptional quality and impact of the Outcome-Based Education Grading System
+										project, indicating a potential for delivering high-impact projects within the
+										organization.</li>
+
+									<li><strong>Coding Expertise:</strong> Demonstrated coding expertise by actively
+										participating in and achieving victories in various coding competitions,
+										showcasing strong problem-solving capabilities that can be leveraged to address
+										complex software development challenges.</li>
+
+									<li><strong>Academic Distinction:</strong> Recognized with a Merit Certificate for
+										sustained exceptional performance throughout the software engineering degree
+										program. This signifies a dedication to academic excellence and a comprehensive
+										understanding of software engineering concepts, attributes that can contribute
+										to maintaining high standards within the organization.</li>
+								</ul>
+								</p>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-briefcase"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>College Degree <br> (FSc pre-engineering)</h3>
+								<p>March 2016 - August 2017</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>Balochistan Board Of Intermediate and Secondary Education | Quetta</h4>
+								<p>
+								<ul>
+									<li><strong>Advanced Mathematical Proficiency:</strong> Completed an additional
+										college degree in mathematics, covering first-year and second-year coursework.
+										This demonstrates a solid foundation in advanced mathematical concepts and
+										analytical problem-solving skills.</li>
+
+									<li><strong>Quantitative Aptitude and Problem-Solving:</strong> Acquired a high
+										level of quantitative aptitude and precision in mathematical calculations,
+										enhancing problem-solving abilities for real-world scenarios. These skills are
+										valuable for roles involving data analysis, research, and complex mathematical
+										modeling.</li>
+								</ul>
+								</p>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-briefcase"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>College Degree <br> (FSc pre-medical)</h3>
+								<p>August 2014 - March 2016</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>Islamia Boys College | Quetta</h4>
+								<p>
+								<ul>
+									<li><strong>Comprehensive Biological Education:</strong> Completed a 2-year college
+										degree in Biology with a specialized focus on Zoology and Botany, gaining
+										in-depth knowledge of the biological sciences.</li>
+
+									<li><strong>Practical Expertise:</strong> Conducted a variety of practical works,
+										including observing photosynthesis in plants, studying the anatomy of different
+										bird species, and exploring their habitats. These hands-on experiences enhanced
+										practical skills and understanding of biodiversity.</li>
+
+									<li><strong>Interdisciplinary Learning:</strong> Enriched the educational experience
+										by delving into related fields, such as Physics. Conducted practical work
+										involving instruments like Vernier calipers, pendulums, and experiments to
+										calculate the velocity of oil drops on charged surfaces, demonstrating the
+										ability to apply scientific principles across disciplines.</li>
+
+									<li><strong>Chemistry Proficiency:</strong> Successfully completed chemistry
+										practicals, expanding knowledge of chemical concepts and laboratory techniques,
+										which can be advantageous in roles requiring a multidisciplinary approach.</li>
+								</ul>
+								</p>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-briefcase"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Matriculation in Science</h3>
+								<p>March 2012 - June 2014</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>Greenwich Grammar High School | Pishin</h4>
+								<p>
+								<ul>
+									<li><strong>Outstanding Academic Achievement:</strong> Recognized as the "Best
+										Student of the Year" in 2013, demonstrating exceptional dedication to academics
+										and a commitment to excellence.</li>
+
+									<li><strong>Space Program Participation:</strong> Actively participated in the
+										Pakistan Space Program organized by SUPARCO (Space & Upper Atmosphere Research
+										Commission). Developed a model of a space city and received a prestigious award
+										for this accomplishment, showcasing creativity and innovation.</li>
+
+									<li><strong>International Recognition:</strong> Nominated for the "Best Researcher"
+										title by Telenor, representing a dedication to research and a pursuit of
+										knowledge that garnered international recognition.</li>
+
+									<li><strong>Hands-on Science:</strong> Engaged in various practical experiments in
+										Chemistry and Biology, including conducting experiments and operations such as
+										frog dissections to examine the respiratory and circulatory systems. These
+										experiences demonstrate a strong foundation in scientific exploration and
+										laboratory skills.</li>
+								</ul>
+								</p>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+
+					</div> <!-- /timeline-wrap -->
+					<p class="text-center"><a onclick="fileDownloadResume()" class="btn btn-primary py-3 px-3">Download CV</a></p>
+
+
+				</div> <!-- /col-12 -->
+
+			</div> <!-- /resume-timeline -->
 		</div>
-	</section>
+	</section> <!-- /features -->
 
-	<section class="ftco-section" id="services-section">
+	<section class="ftco-section pt-4" id="services-section">
 		<div class="container">
 			<div class="row justify-content-center py-5 mt-5">
 				<div class="col-md-12 heading-section text-center ftco-animate">
@@ -216,63 +579,63 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a class="services-1 cursor-pointer">
 						<span class="icon">
-							<i class="flaticon-analysis"></i>
+							<i class="flaticon-web-design"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-5">Web Design</h3>
+							<h3 class="mb-5">Web Designing</h3>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a class="services-1 cursor-pointer">
 						<span class="icon">
-							<i class="flaticon-flasks"></i>
+							<i class="flaticon-ux-design"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-5">Phtography</h3>
+							<h3 class="mb-5">Web Development</h3>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a class="services-1 cursor-pointer">
 						<span class="icon">
-							<i class="flaticon-ideas"></i>
+							<i class="flaticon-innovation"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-5">Web Developer</h3>
+							<h3 class="mb-5">Front-End & Back-End</h3>
 						</div>
 					</a>
 				</div>
 
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a class="services-1 cursor-pointer">
 						<span class="icon">
-							<i class="flaticon-analysis"></i>
+							<i class="icon-shopping-bag"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-5">App Developing</h3>
+							<h3 class="mb-5">Shopify</h3>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a class="services-1 cursor-pointer">
 						<span class="icon">
-							<i class="flaticon-flasks"></i>
+							<i class="icon-wordpress"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-5">Branding</h3>
+							<h3 class="mb-5">WordPress</h3>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a class="services-1 cursor-pointer">
 						<span class="icon">
-							<i class="flaticon-ideas"></i>
+							<i class="icon-web"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-5">Product Strategy</h3>
+							<h3 class="mb-5">Custom Websites</h3>
 						</div>
 					</a>
 				</div>
@@ -293,7 +656,7 @@
 			<div class="row">
 				<div class="col-md-6 animate-box">
 					<div class="progress-wrap ftco-animate">
-						<h3>Photoshop</h3>
+						<h3>JavaScript (ES6)</h3>
 						<div class="progress">
 							<div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
 								aria-valuemax="100" style="width:90%">
@@ -306,13 +669,58 @@
 					<div class="progress-wrap ftco-animate">
 						<h3>jQuery</h3>
 						<div class="progress">
-							<div class="progress-bar color-2" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+							<div class="progress-bar color-2" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+								aria-valuemax="100" style="width:90%">
+								<span>90%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box">
+					<div class="progress-wrap ftco-animate">
+						<h3>React.js</h3>
+						<div class="progress">
+							<div class="progress-bar color-6" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+								aria-valuemax="100" style="width:70%">
+								<span>70%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box">
+					<div class="progress-wrap ftco-animate">
+						<h3>Node</h3>
+						<div class="progress">
+							<div class="progress-bar color-6" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+								aria-valuemax="100" style="width:60%">
+								<span>65%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box">
+					<div class="progress-wrap ftco-animate">
+						<h3>WordPress</h3>
+						<div class="progress">
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+								aria-valuemax="100" style="width:80%">
+								<span>80%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box">
+					<div class="progress-wrap ftco-animate">
+						<h3>Shopify</h3>
+						<div class="progress">
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="85" aria-valuemin="0"
 								aria-valuemax="100" style="width:85%">
 								<span>85%</span>
 							</div>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md-6 animate-box">
 					<div class="progress-wrap ftco-animate">
 						<h3>HTML5</h3>
@@ -326,33 +734,81 @@
 				</div>
 				<div class="col-md-6 animate-box">
 					<div class="progress-wrap ftco-animate">
-						<h3>CSS3</h3>
+						<h3>CSS</h3>
 						<div class="progress">
-							<div class="progress-bar color-4" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-								aria-valuemax="100" style="width:90%">
-								<span>90%</span>
+							<div class="progress-bar color-4" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+								aria-valuemax="100" style="width:95%">
+								<span>95%</span>
 							</div>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md-6 animate-box">
 					<div class="progress-wrap ftco-animate">
-						<h3>WordPress</h3>
+						<h3>Bootstrap</h3>
 						<div class="progress">
-							<div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+							<div class="progress-bar color-3" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+								aria-valuemax="100" style="width:95%">
+								<span>95%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 animate-box">
+					<div class="progress-wrap ftco-animate">
+						<h3>SEO</h3>
+						<div class="progress">
+							<div class="progress-bar color-6" role="progressbar" aria-valuenow="70" aria-valuemin="0"
 								aria-valuemax="100" style="width:70%">
 								<span>70%</span>
 							</div>
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md-6 animate-box">
 					<div class="progress-wrap ftco-animate">
-						<h3>SEO</h3>
+						<h3>Python</h3>
+						<div class="progress">
+							<div class="progress-bar color-6" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+								aria-valuemax="100" style="width:75%">
+								<span>75%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box">
+					<div class="progress-wrap ftco-animate">
+						<h3>PHP</h3>
 						<div class="progress">
 							<div class="progress-bar color-6" role="progressbar" aria-valuenow="80" aria-valuemin="0"
 								aria-valuemax="100" style="width:80%">
 								<span>80%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 animate-box">
+					<div class="progress-wrap ftco-animate">
+						<h3>MongoDB</h3>
+						<div class="progress">
+							<div class="progress-bar color-6" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+								aria-valuemax="100" style="width:65%">
+								<span>65%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box">
+					<div class="progress-wrap ftco-animate">
+						<h3>MySQL</h3>
+						<div class="progress">
+							<div class="progress-bar color-6" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+								aria-valuemax="100" style="width:70%">
+								<span>70%</span>
 							</div>
 						</div>
 					</div>
@@ -441,7 +897,7 @@
 	</section>
 
 
-	<section class="ftco-section" id="blog-section">
+	<section class="ftco-section d-none" id="blog-section">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-5">
 				<div class="col-md-7 heading-section text-center ftco-animate">
@@ -512,13 +968,13 @@
 		</div>
 	</section>
 
-	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" style="z-index: 1;" id="section-counter">
 		<div class="container">
 			<div class="row d-md-flex align-items-center">
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
-							<strong class="number" data-number="100">0</strong>
+							<strong class="number" data-number="10">0</strong>
 							<span>Awards</span>
 						</div>
 					</div>
@@ -526,7 +982,7 @@
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
-							<strong class="number" data-number="1200">0</strong>
+							<strong class="number" data-number="80">0</strong>
 							<span>Complete Projects</span>
 						</div>
 					</div>
@@ -534,7 +990,7 @@
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
-							<strong class="number" data-number="1200">0</strong>
+							<strong class="number" data-number="90">0</strong>
 							<span>Happy Customers</span>
 						</div>
 					</div>
@@ -542,7 +998,7 @@
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18">
 						<div class="text">
-							<strong class="number" data-number="500">0</strong>
+							<strong class="number" data-number="230">0</strong>
 							<span>Cups of coffee</span>
 						</div>
 					</div>
@@ -551,13 +1007,13 @@
 		</div>
 	</section>
 
-	<section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+	<section class="ftco-section ftco-hireme img margin-top"  style="z-index: 0;">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-7 ftco-animate text-center">
 					<h2>I'm <span>Available</span> for freelancing</h2>
-					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-					<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p>
+					<p class="text-white">Embracing the spirit of Duden's tranquil river, I bring a constant flow of creativity, infusing projects with the vital essence of innovation and design.</p>
+					<p class="mb-0"><a href="#contact-section" class="btn btn-primary py-3 px-5 pe-auto">Hire me</a></p>
 				</div>
 			</div>
 		</div>
@@ -580,7 +1036,7 @@
 							<span class="icon-map-signs"></span>
 						</div>
 						<h3 class="mb-4">Address</h3>
-						<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+						<p>Lahore, Pakistan</p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -589,7 +1045,7 @@
 							<span class="icon-phone2"></span>
 						</div>
 						<h3 class="mb-4">Contact Number</h3>
-						<p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+						<p><a href="tel://+923082912068">+(92) 308-2912068</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -598,7 +1054,7 @@
 							<span class="icon-paper-plane"></span>
 						</div>
 						<h3 class="mb-4">Email Address</h3>
-						<p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+						<p><a href="mailto:iftikharahmad.it@gmail.com">iftikharahmad.it@gmail.com</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -607,50 +1063,85 @@
 							<span class="icon-globe"></span>
 						</div>
 						<h3 class="mb-4">Website</h3>
-						<p><a href="#">yoursite.com</a></p>
+						<p><a target="_blank" href="https://www.fiverr.com/iamiftikhara">iamiftikhara</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="row no-gutters block-9">
-				<div class="col-md-6 order-md-last d-flex">
-					<form action="#" class="bg-light p-4 p-md-5 contact-form">
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Name">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Email">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Subject">
-						</div>
-						<div class="form-group">
-							<textarea name="" id="" cols="30" rows="7" class="form-control"
-								placeholder="Message"></textarea>
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-						</div>
-					</form>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-10">
+							<div class="wrapper contact-bg">
+								<div class="row no-gutters">
+									<div class="col-md-12 d-flex align-items-stretch">
+										<div class="contact-wrap w-100 p-md-5 p-4 py-5 border border-warning rounded">
+											<div class="text-center mb-4">
+												<h3 style="color: #ffbd39;">Knock My Inbox</h3>
+												<h5>Are You Ready to Work with Me?</h5>
+												<h5>Don't be Shy, Say Hello!</h5>
+											</div>
+											<div id="form-message-warning" class="mb-4"></div>
+											<div id="form-message-success" class="mb-4">
+												Your message was sent, thank you!
+											</div>
+											<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+												<div class="row">
+													<div class="col-md-12">
+														<div class="form-group">
+															<input type="text" class="form-control" name="userName"
+																id="name" placeholder="Name">
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="form-group">
+															<input type="email" class="form-control" name="userEmail"
+																id="email" placeholder="Email">
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="form-group">
+															<input type="text" class="form-control" name="userSubject"
+																id="subject" placeholder="Subject">
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="form-group">
+															<textarea name="userMessage" class="form-control"
+																id="message" cols="30" rows="6"
+																placeholder="Message"></textarea>
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="form-group">
+															<input type="" id="sendThisToMe" value="Send Message"
+																class="btn btn-primary p-3 mt-3 float-end">
+															<div class="submitting"></div>
+														</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
 
-				</div>
-
-				<div class="col-md-6 d-flex">
-					<div class="img" style="background-image: url(images/about.jpg);"></div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 
-	<footer class="ftco-footer ftco-section">
+	<footer class="ftco-footer ftco-section" style="padding-bottom: 0px;">
 		<div class="container">
 			<div class="row mb-5">
-				<div class="col-md">
+				<div class="col-3">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">About</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-							there live the blind texts.</p>
+						<p>A passionate web developer with a flair for creative design and a dedication to crafting
+							exceptional digital experiences.</p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
 							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -658,27 +1149,37 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-2">
 					<div class="ftco-footer-widget mb-4 ml-md-4">
 						<h2 class="ftco-heading-2">Links</h2>
 						<ul class="list-unstyled">
 							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+							<li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Services</a>
+							</li>
+							<li><a href="#projects-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a>
+							</li>
+							<li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a>
+							</li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-4">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">Services</h2>
 						<ul class="list-unstyled">
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li>
+							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Web
+									Design</a></li>
+							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Web
+									Development</a></li>
+							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Front-end &
+									Back-end development</a></li>
+							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Shopify
+									Expert </a></li>
+							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>WordPress
+									Expert</a></li>
+							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Custom
+									Website Development</a></li>
 						</ul>
 					</div>
 				</div>
@@ -687,27 +1188,25 @@
 						<h2 class="ftco-heading-2">Have a Questions?</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain
-										View, San Francisco, California, USA</span></li>
-								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929
-											210</span></a></li>
-								<li><a href="#"><span class="icon icon-envelope"></span><span
-											class="text">info@yourdomain.com</span></a></li>
+								<li>
+									<span class="icon icon-map-marker"></span>
+									<span class="text">Lahore, Pakistan</span>
+								</li>
+								<li>
+									<a href="tel://+923082912068">
+										<span class="icon icon-phone"></span>
+										<span class="text">+(92) 308-2912068</span>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:iftikharahmad.it@gmail.com">
+										<span class="icon icon-envelope"></span>
+										<span class="text">iftikharahmad.it@gmail.com</span>
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-
-					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
-						is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a
-							href="https://colorlib.com" target="_blank">Colorlib</a>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					</p>
 				</div>
 			</div>
 		</div>
@@ -735,8 +1234,15 @@
 	<script src="js/aos.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-
 	<script src="js/main.js"></script>
+
+	<script src="/files/JS/jquery.validate.min.js"></script>
+	<script src="/files/JS/main.js"></script>
+	<script src="/files/SJS/constants.js"></script>
+	<script src="/files/SJS/main.js"></script>
+
+
+
 
 </body>
 

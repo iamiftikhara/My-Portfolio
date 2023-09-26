@@ -1,0 +1,341 @@
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/fonts/font-awesome/fonts/fontawesome-webfont.eot?v=4.2.0");
+  src: url("/fonts/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0")
+      format("embedded-opentype"),
+    url("/fonts/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0")
+      format("woff"),
+    url("/fonts/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0")
+      format("truetype"),
+    url("/fonts/font-awesome/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 25px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-graduation-cap:before {
+  content: "\f0b1";
+}
+
+.fa-briefcase:before {
+  content: "\f19d";
+}
+/** 
+  * ===================================================================
+  * 12. resume - (_layout.scss)
+  *
+  * ------------------------------------------------------------------- 
+  */
+#resume-section {
+  padding-top: 12rem;
+  /* padding-bottom: 12rem; */
+}
+
+#resume-section .resume-header {
+  text-align: center;
+}
+#resume-section .resume-header h2 {
+  color: #ff0077;
+}
+
+#resume-section .resume-timeline {
+  max-width: 980px;
+}
+#resume-section .timeline-wrap {
+  position: relative;
+  margin-top: 1.5rem;
+  margin-bottom: 6rem;
+}
+#resume-section .timeline-wrap::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: rgba(225, 225, 225, 0.755);
+  position: absolute;
+  left: 35%;
+  top: 0;
+}
+#resume-section .timeline-block {
+  position: relative;
+  padding-top: 1.5rem;
+}
+#resume-section .timeline-ico {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  background: #313131;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  left: 35.5%;
+  top: 0.9rem;
+  margin-left: -2.4rem;
+}
+#resume-section .timeline-ico i {
+  position: relative;
+  left: 0.05rem;
+  top: 0.2rem;
+}
+
+#resume-section .timeline-header {
+  float: left;
+  width: 35%;
+  padding-right: 90px;
+  text-align: right;
+}
+#resume-section .timeline-header h3 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+}
+#resume-section .timeline-header p {
+  font-family: "poppins-regular", sans-serif;
+  font-size: 1.2rem;
+  color: #888888;
+}
+#resume-section .timeline-content {
+  margin-left: 35%;
+  padding-left: 60px;
+}
+#resume-section .timeline-content h4 {
+  position: relative;
+  padding-bottom: 1.8rem;
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 1.2rem;
+}
+#resume-section .timeline-content h4::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 50px;
+  background: rgb(255 255 255 / 75%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/**
+  * responsive:
+  * resume
+  * ------------------------------------------------------------------- 
+  */
+@media only screen and (max-width: 1024px) {
+  #resume-section .timeline-header {
+    padding-right: 50px;
+  }
+  #resume-section .timeline-header h3 {
+    font-size: 1.8rem;
+  }
+  #resume-section .timeline-header p {
+    font-size: 1.4rem;
+  }
+  #resume-section .timeline-content {
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #resume-section .timeline-wrap::before {
+    left: 2.4rem;
+  }
+  #resume-section .timeline-ico {
+    left: 2.4rem;
+  }
+  #resume-section .timeline-header {
+    float: none;
+    width: auto;
+    padding-right: 15px;
+    text-align: left;
+  }
+  #resume-section .timeline-header h3 {
+    font-size: 2rem;
+  }
+  #resume-section .timeline-header p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  #resume-section .timeline-content {
+    margin: 0;
+  }
+  #resume-section .timeline-content h4 {
+    padding-bottom: 0;
+    padding-top: 2.1rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.7rem;
+  }
+  #resume-section .timeline-content h4::after {
+    bottom: auto;
+    top: 0;
+  }
+  #resume-section .timeline-header,
+  #resume-section .timeline-content {
+    padding-left: 7rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #resume-section .resume-header h2 {
+    font-size: 2.2rem;
+  }
+  #resume-section .timeline-wrap::before {
+    left: 1.8rem;
+  }
+  #resume-section .timeline-ico {
+    height: 3.6rem;
+    width: 3.6rem;
+    line-height: 3.6rem;
+    left: 1.8rem;
+    margin-left: -1.8rem;
+    font-size: 1.5rem;
+  }
+  #resume-section .timeline-header,
+  #resume-section .timeline-content {
+    padding-left: 5.5rem;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+#contactForm .form-control {
+  font-size: 16px;
+}
+
+.contactForm .form-control {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0;
+}
+.form-control {
+  height: 52px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 14px;
+  border-radius: 0px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.error {
+  color: red;
+}
+
+#form-message-warning,
+#form-message-success {
+  display: none;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: #e1e1e1;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+}
+
+/* Custom alert styles */
+.custom-alert {
+  text-align: center;
+
+  padding: 10px;
+  border-radius: 4px;
+  margin: 20px;
+  z-index: 11;
+  position: fixed;
+  align-items: center;
+  width: 30%;
+  margin: 29px auto;
+  z-index: 4;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.custom-alert.showError {
+  background-color: #f8d7da;
+  color: #842029;
+  border: 1px solid #f5c2c7;
+
+  opacity: 1; /* Show the alert by changing opacity to 1 */
+}
+
+.custom-alert.showSuccess {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  border: 1px solid #badbcc;
+  opacity: 1; /* Show the alert by changing opacity to 1 */
+}
+
+.contact-bg{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.float-end{
+    float: right !important;
+}
+
+.ftco-hireme{
+    background-image: url("/images/bg_1.jpg") !important; 
+}
+
+/* Create a pseudo-element with opacity */
+.ftco-hireme::before {
+    content: ''; /* Required for pseudo-elements */
+    position:   absolute; /* Position the pseudo-element */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 0 0 / 17%); /* Adjust the color and opacity as needed */
+    z-index: -1; /* Place the pseudo-element behind the content */
+  }
+
+ 
