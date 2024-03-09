@@ -62,6 +62,21 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+
+
+   /* .tawk-branding custome css */
+.tawk-branding{
+    display: none !important;
+  }
+
+
+.tawk-flex.tawk-flex-center.tawk-text-center.tawk-padding-small{
+  display: none !important;
+}
+
+
+
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -9682,3 +9697,8 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+ 
