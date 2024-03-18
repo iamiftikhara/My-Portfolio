@@ -54,3 +54,21 @@ function fileDownloadResume () {
   // Simulate a click event on the link to trigger the download
   a.click()
 }
+
+
+
+// Calculate the age
+function calculateAge(birthYear) {
+  const currentYear = new Date().getFullYear();
+  return currentYear - birthYear;
+}
+
+// Get the element to display the age
+const ageElement = document.getElementById('thisMyAge');
+
+// Set the birth year (replace '1997' with the actual birth year)
+const birthYear = 1997;
+
+// Calculate the age and display it
+const age = calculateAge(birthYear);
+ageElement.textContent = age;
