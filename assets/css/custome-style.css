@@ -1,0 +1,28 @@
+
+@media (max-width: 480px){
+
+    body{
+        font-size: 12px !important;
+    }
+
+    #resume-section {
+        padding-top: 0rem;
+    }
+
+    .download-cv-style{
+        justify-content: center;
+    }
+    .download-cv-style .text{
+        text-align: center;
+    }
+
+    .heading-section h2, .heading-section p{
+        text-align: left;
+    }
+
+    #resume-section .timeline-header h3{
+        font-size: 1rem;
+    }
+    
+    
+}
